@@ -1,0 +1,9 @@
+dependencies:
+- name: sthings-k8s-toolkit
+  repository: oci://scr.tiab.labda.sva.de/sthings-k8s-toolkit
+  version: 2.4.6-helm
+- name: redis
+  repository: https://charts.bitnami.com/bitnami
+  version: 17.8.0
+digest: sha256:b57c018d8a71d025c920e93a11488be9dc3bd6dd81535d459172aa760d0d95d9
+generated: "2023-02-26T16:17:57.940659361Z"

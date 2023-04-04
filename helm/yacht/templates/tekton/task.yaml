@@ -1,0 +1,4 @@
+{{- $envVar := . -}}
+{{- range $taskName, $taskTpl := .Values.tasks -}}
+{{ include "sthings-k8s-toolkit.task" (list $envVar $taskName $taskTpl) }}
+{{ end -}}
